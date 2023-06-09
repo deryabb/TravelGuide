@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="AntikKentlerFrame">
+  <grid id="27dc6" binding="panel1" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="960" height="1232"/>
+    </constraints>
+    <properties>
+      <background color="-7236456"/>
+      <foreground color="-7236456"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="77a17" layout-manager="GridLayoutManager" row-count="11" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-7236456"/>
+          <foreground color="-7236456"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="5ae43" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="30" style="3"/>
+              <text value="Antalya Antik Kentler"/>
+            </properties>
+          </component>
+          <component id="2cb1" class="javax.swing.JButton" binding="aspendosButton" default-binding="true">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="193" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1972481"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="false"/>
+              <font name="DialogInput" size="20"/>
+              <icon value="Resources/wiki.png"/>
+              <text value="Aspendos"/>
+            </properties>
+          </component>
+          <component id="e9a97" class="javax.swing.JButton" binding="olimposButton">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="193" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1972481"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="false"/>
+              <font name="DialogInput" size="20"/>
+              <icon value="Resources/wiki.png"/>
+              <text value="Olimpos"/>
+            </properties>
+          </component>
+          <component id="66cf5" class="javax.swing.JButton" binding="pataraButton">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="193" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1972481"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="false"/>
+              <font name="DialogInput" size="20"/>
+              <icon value="Resources/wiki.png"/>
+              <text value="Patara"/>
+            </properties>
+          </component>
+          <component id="f06e5" class="javax.swing.JButton" binding="myraButton">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="193" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1972481"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="false"/>
+              <font name="DialogInput" size="20"/>
+              <icon value="Resources/wiki.png"/>
+              <text value="Myra"/>
+            </properties>
+          </component>
+          <component id="6713c" class="javax.swing.JSeparator">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="3" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="193" height="3"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="78693" class="javax.swing.JSeparator">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="3" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="193" height="3"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="2876d" class="javax.swing.JSeparator">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="3" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="193" height="3"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="d0e08" class="javax.swing.JButton" binding="konumButton" default-binding="true">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-7236456"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="false"/>
+              <enabled value="true"/>
+              <font size="16"/>
+              <icon value="Resources/placeholder.png"/>
+              <text value="Konum"/>
+            </properties>
+          </component>
+          <component id="dcbcf" class="javax.swing.JButton" binding="konumButton2">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-7236456"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="false"/>
+              <enabled value="true"/>
+              <font size="16"/>
+              <icon value="Resources/placeholder.png"/>
+              <text value="Konum"/>
+            </properties>
+          </component>
+          <component id="238b3" class="javax.swing.JButton" binding="konumButton3">
+            <constraints>
+              <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-7236456"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="false"/>
+              <enabled value="true"/>
+              <font size="16"/>
+              <icon value="Resources/placeholder.png"/>
+              <text value="Konum"/>
+            </properties>
+          </component>
+          <component id="5d349" class="javax.swing.JButton" binding="konumButton4">
+            <constraints>
+              <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-7236456"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="false"/>
+              <enabled value="true"/>
+              <font size="16"/>
+              <icon value="Resources/placeholder.png"/>
+              <text value="Konum"/>
+            </properties>
+          </component>
+          <component id="9d45b" class="javax.swing.JSeparator">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="1feb" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="Resources/patara.jpg"/>
+              <text value="" noi18n="true"/>
+            </properties>
+          </component>
+          <component id="bfe54" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="Resources/aspendos1.jpg"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="1931c" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="Resources/olmantik.jpg"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="1ec20" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="Resources/myra.jpg"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="64f4e" class="javax.swing.JSeparator">
+            <constraints>
+              <grid row="9" column="0" row-span="1" col-span="3" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

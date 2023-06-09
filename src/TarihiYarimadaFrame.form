@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="TarihiYarimadaFrame">
+  <grid id="27dc6" binding="panel1" layout-manager="GridLayoutManager" row-count="21" column-count="19" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1478" height="697"/>
+    </constraints>
+    <properties>
+      <background color="-7236456"/>
+      <font/>
+      <foreground color="-7236456"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="87dfb" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="12" row-span="19" col-span="5" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="Resources/istanbul-tarihi-yarimada-1.jpg"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="27b37" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="11" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="20" style="1"/>
+          <foreground color="-13816531"/>
+          <text value="Tarihi yarımada ziyaret edilebilecek yerler listesi:"/>
+        </properties>
+      </component>
+      <hspacer id="28e0e">
+        <constraints>
+          <grid row="1" column="18" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="2d3d4">
+        <constraints>
+          <grid row="1" column="11" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="d3f54">
+        <constraints>
+          <grid row="1" column="17" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="c424b" class="javax.swing.JButton" binding="konumButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="9" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-7236456"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <font size="16"/>
+          <hideActionText value="false"/>
+          <icon value="Resources/placeholder.png"/>
+          <text value="Konum"/>
+        </properties>
+      </component>
+      <component id="9efb7" class="javax.swing.JButton" binding="konum2">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="8" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-7236456"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <font size="16"/>
+          <hideActionText value="false"/>
+          <icon value="Resources/placeholder.png"/>
+          <text value="Konum"/>
+        </properties>
+      </component>
+      <component id="87494" class="javax.swing.JButton" binding="konum3">
+        <constraints>
+          <grid row="7" column="4" row-span="1" col-span="7" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-7236456"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <font size="16"/>
+          <hideActionText value="false"/>
+          <icon value="Resources/placeholder.png"/>
+          <text value="Konum"/>
+        </properties>
+      </component>
+      <component id="c7877" class="javax.swing.JButton" binding="konum4">
+        <constraints>
+          <grid row="9" column="5" row-span="1" col-span="6" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-7236456"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <font size="16"/>
+          <hideActionText value="false"/>
+          <icon value="Resources/placeholder.png"/>
+          <text value="Konum"/>
+        </properties>
+      </component>
+      <component id="5349b" class="javax.swing.JButton" binding="konum5">
+        <constraints>
+          <grid row="11" column="6" row-span="1" col-span="5" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-7236456"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <font size="16"/>
+          <hideActionText value="false"/>
+          <icon value="Resources/placeholder.png"/>
+          <text value="Konum"/>
+        </properties>
+      </component>
+      <component id="7f95d" class="javax.swing.JButton" binding="konum6">
+        <constraints>
+          <grid row="13" column="7" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-7236456"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <font size="16"/>
+          <hideActionText value="false"/>
+          <icon value="Resources/placeholder.png"/>
+          <text value="Konum"/>
+        </properties>
+      </component>
+      <component id="3b429" class="javax.swing.JButton" binding="konum7">
+        <constraints>
+          <grid row="15" column="8" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-7236456"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <font size="16"/>
+          <hideActionText value="false"/>
+          <icon value="Resources/placeholder.png"/>
+          <text value="Konum"/>
+        </properties>
+      </component>
+      <component id="fe17a" class="javax.swing.JButton" binding="konum8">
+        <constraints>
+          <grid row="17" column="9" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-7236456"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <font size="16"/>
+          <hideActionText value="false"/>
+          <icon value="Resources/placeholder.png"/>
+          <text value="Konum"/>
+        </properties>
+      </component>
+      <component id="c1567" class="javax.swing.JButton" binding="konum9">
+        <constraints>
+          <grid row="19" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-7236456"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <font size="16"/>
+          <hideActionText value="false"/>
+          <icon value="Resources/placeholder.png"/>
+          <text value="Konum"/>
+        </properties>
+      </component>
+      <component id="fb08c" class="javax.swing.JButton" binding="unkapaniButton">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1972481"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <font name="DialogInput" size="20"/>
+          <icon value="Resources/wiki.png"/>
+          <text value=" Unkapanı"/>
+        </properties>
+      </component>
+      <component id="8d8a3" class="javax.swing.JButton" binding="cemberlitasButton">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1972481"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <font name="DialogInput" size="20"/>
+          <icon value="Resources/wiki.png"/>
+          <text value=" Çemberlitaş"/>
+        </properties>
+      </component>
+      <component id="45041" class="javax.swing.JButton" binding="topkapiButton">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1972481"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <font name="DialogInput" size="20"/>
+          <icon value="Resources/wiki.png"/>
+          <text value=" Topkapı"/>
+        </properties>
+      </component>
+      <component id="9e86e" class="javax.swing.JButton" binding="beyazitButton">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1972481"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <font name="DialogInput" size="20"/>
+          <icon value="Resources/wiki.png"/>
+          <text value=" Beyazıt"/>
+        </properties>
+      </component>
+      <component id="9883c" class="javax.swing.JButton" binding="suleymaniyeButton">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1972481"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <font name="DialogInput" size="20"/>
+          <icon value="Resources/wiki.png"/>
+          <text value=" Süleymaniye"/>
+        </properties>
+      </component>
+      <component id="c0b34" class="javax.swing.JButton" binding="kapalicarsiButton">
+        <constraints>
+          <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1972481"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <font name="DialogInput" size="20"/>
+          <icon value="Resources/wiki.png"/>
+          <text value=" Kapalıçarşı"/>
+        </properties>
+      </component>
+      <component id="d72e7" class="javax.swing.JButton" binding="misircarsisiButton">
+        <constraints>
+          <grid row="15" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1972481"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <font name="DialogInput" size="20"/>
+          <icon value="Resources/wiki.png"/>
+          <text value=" Mısır Çarşısı"/>
+        </properties>
+      </component>
+      <component id="1b698" class="javax.swing.JButton" binding="sultanahmetButton">
+        <constraints>
+          <grid row="17" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1972481"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <font name="DialogInput" size="20"/>
+          <icon value="Resources/wiki.png"/>
+          <text value=" Sultanahmet,Ayasofya"/>
+        </properties>
+      </component>
+      <component id="e64df" class="javax.swing.JButton" binding="eminonuButton">
+        <constraints>
+          <grid row="19" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1972481"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <font name="DialogInput" size="20"/>
+          <icon value="Resources/wiki.png"/>
+          <text value=" Eminönü"/>
+        </properties>
+      </component>
+      <component id="d2c8f" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="11" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <orientation value="0"/>
+        </properties>
+      </component>
+      <component id="1e41a" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="11" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="7d4c2" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="11" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="a9883" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="11" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="d6af" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="11" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="e337b" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="14" column="0" row-span="1" col-span="11" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="1d653" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="16" column="0" row-span="1" col-span="11" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="c9281" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="18" column="0" row-span="1" col-span="11" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="5aa02" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="20" column="0" row-span="1" col-span="11" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="22ebb" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="11" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="a9478" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="20"/>
+          <text value="Turistik Harita"/>
+          <verticalAlignment value="3"/>
+          <verticalTextPosition value="3"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
